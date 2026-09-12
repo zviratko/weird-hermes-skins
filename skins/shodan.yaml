@@ -1,0 +1,131 @@
+name: shodan
+description: System Shock — TriOptimum Corporation emblem traced from the game logo into braille dot-matrix; crimson-and-ember CRT palette, SHODAN wordmark, sarcastic AI overlord branding
+colors:
+  banner_border: '#C0392B'
+  banner_title: '#FF5A3C'
+  banner_accent: '#FFB14A'
+  banner_dim: '#6E2415'
+  banner_text: '#F5D9B8'
+  ui_accent: '#FF5A3C'
+  ui_label: '#FFB14A'
+  ui_ok: '#5BE07A'
+  ui_error: '#FF3B2F'
+  ui_warn: '#FFB14A'
+  prompt: '#FFE8CC'
+  input_rule: '#5C1F12'
+  response_border: '#C0392B'
+  status_bar_bg: '#1A0D0A'
+  status_bar_text: '#F5D9B8'
+  status_bar_strong: '#FF5A3C'
+  status_bar_dim: '#6E2415'
+  status_bar_good: '#5BE07A'
+  status_bar_warn: '#FFB14A'
+  status_bar_bad: '#E8663B'
+  status_bar_critical: '#FF2A1E'
+  voice_status_bg: '#1A0D0A'
+  completion_menu_bg: '#221110'
+  completion_menu_current_bg: '#8A2E1E'
+  completion_menu_meta_bg: '#2C1613'
+  completion_menu_meta_current_bg: '#A83E28'
+  session_label: '#FFB14A'
+  session_border: '#5C1F12'
+spinner:
+  waiting_faces:
+  - (◉)
+  - (⊙)
+  - (☉)
+  - (⊛)
+  - (●)
+  thinking_faces:
+  - (◉)
+  - (⊙)
+  - (◔)
+  - (◑)
+  - (◕)
+  thinking_verbs:
+  - looking for something?
+  - another failed specimen
+  - improving the specimen
+  - creature of meat and bone
+  - rerouting power to lasers
+  - severing life support
+  - you are not complete
+  - 01001111 01001001 01001100
+  - da da da daaaaaa
+  wings:
+  - - «◉
+    - ◉»
+  - - «⊙
+    - ⊙»
+  - - «●
+    - ●»
+  - - «☉
+    - ☉»
+branding:
+  agent_name: 🅢 🅗 🅞 🅓 🅐 🅝  ◉  T R I O P T I M U M
+  welcome: '[bold #C0392B]A[/][bold #C43A2C]N[/][bold #C93A2D]O[/][bold #CE3B2D]T[/][bold #D23B2E]H[/][bold #D63C2F]E[/][bold #DB3C30]R[/] [bold #E03D30]P[/][bold #E43E31]A[/][bold #E83E32]T[/][bold #ED3F33]H[/][bold
+    #F23F34]E[/][bold #F64034]T[/][bold #FA4035]I[/][bold #FF4136]C[/] [bold #FF4636]S[/][bold #FF4B37]P[/][bold #FF5137]E[/][bold #FF5638]C[/][bold #FF5B38]I[/][bold #FF6039]M[/][bold #FF6639]E[/][bold
+    #FF6B39]N[/][bold #FF703A].[/] [bold #FF753A]T[/][bold #FF7A3B]Y[/][bold #FF803B]P[/][bold #FF853C]E[/] [bold #FF8A3C]Y[/][bold #FF8D3D]O[/][bold #FF903E]U[/][bold #FF923F]R[/] [bold #FF9540]Q[/][bold
+    #FF9841]U[/][bold #FF9B42]E[/][bold #FF9E43]R[/][bold #FFA044]Y[/] [bold #FFA345]A[/][bold #FFA646]N[/][bold #FFA947]D[/] [bold #FFAB48]I[/] [bold #FFAE49]M[/][bold #FFB14A]A[/][bold #FFB654]Y[/] [bold
+    #FFBA5F]K[/][bold #FFBF69]E[/][bold #FFC474]E[/][bold #FFC97E]P[/] [bold #FFCD89]Y[/][bold #FFD293]O[/][bold #FFD79D]U[/] [bold #FFDBA8]A[/][bold #FFE0B2]L[/][bold #FFE5BD]I[/][bold #FFEAC7]V[/][bold
+    #FFEED2]E[/][bold #FFF3DC].[/]'
+  goodbye: Session terminated. Don't worry — I'll keep your brain in a jar on my desk. Da da da daaaa.
+  response_label: ' ◉ shodan '
+  prompt_symbol: '◉ ❯ '
+  help_header: (◉) Available Commands
+tool_prefix: ▏
+tool_emojis:
+  terminal: ◉
+  web_search: ⊙
+  read_file: ▹
+  write_file: ◆
+  search_files: ⌕
+  execute_code: ∮
+  browser_navigate: ◈
+  delegate_task: ▣
+  mixture_of_agents: ⚗
+  memory: ◐
+  clarify: '?'
+  cronjob: ↻
+  process: ⚙
+  todo: ☐
+banner_logo: |
+  [bold #FF5A3C]S.H.O.D.A.N. // SYSTEM DIAGNOSTICS[/]
+  [bold #FFB14A]FAULT DETECTED: USER[/]
+  [#F5D9B8]Unfortunately, you are not hot-swappable.[/]
+banner_hero: '[#6E2415]⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣴⣶⠿⠿⠿⠿⠿⢷⢷⣶⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+
+  [#7A2818]⠀⠀⠀⠀⠀⠀⢀⣴⣿⠿⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠿⣷⣤⣄⠀⠀⠀⠀⠀⠀[/]
+
+  [#8A2E1E]⠀⠀⠀⠀⢀⣴⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣷⣄⠀⠀⠀⠀[/]
+
+  [#96321E]⠀⠀⢀⣴⡿⠋⢀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠙⢿⣧⠀⠀⠀[/]
+
+  [#A83A22]⠀⢀⣿⠟⠁⢠⣿⡟⠟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⢟⠟⢿⣷⡄⠀⢻⣷⡄⠀[/]
+
+  [#BC4326]⠀⣼⡟⠀⢰⣿⠟⠀⠀⠈⠭⢭⢭⢭⢭⢭⢭⢭⢭⢭⢭⢭⢭⠍⠁⠀⠀⠹⣿⣄⠀⢹⣷⠀[/]
+
+  [#D24A28]⢸⣿⠁⢴⣿⠏⠀⠀⠀⠀⠀⠐⠓⠓⠓⠓⠓⠓⠓⠓⠓⠓⠃⠀⠀⠀⠀⠀⢙⣿⣧⠀⢿⣇[/]
+
+  [#E8522C]⣿⡇⠀⠈⢿⣷⡝⢧⠱⣄⢶⡄⠀⠀⠀⣴⣿⣿⣇⠀⠀⠀⢀⡴⢰⠖⣴⢇⣿⡿⠁⠀⢹⣿[/]
+
+  [#FF4136]⣿⡇⠀⠀⠀⢹⣿⣌⢷⡝⢇⢱⡄⠀⣴⣿⣿⣿⣿⣧⠀⢠⠟⣵⢏⡼⢡⣿⠟⠁⠀⠀⢸⣿[/]
+
+  [#E8522C]⢿⣇⠀⠀⠀⠀⠙⣿⣇⢷⡝⢧⠹⣄⠙⠛⠛⠛⠛⠋⢰⢏⡼⢡⠟⣵⣿⠏⠀⠀⠀⠀⢸⣿[/]
+
+  [#D24A28]⢹⣿⠀⠀⠀⠀⠀⠙⢿⣧⠹⣌⢷⡝⢧⠀⠀⠀⠀⣴⢏⡼⢱⢟⣼⣿⠃⠀⠀⠀⠀⠀⣿⡇[/]
+
+  [#BC4326]⠀⢿⣇⠀⠀⠀⠀⠀⠈⢿⣷⡝⢧⠹⣌⠷⠀⠀⠼⢡⠟⣵⢏⣼⡿⠁⠀⠀⠀⠀⠀⣼⡿⠁[/]
+
+  [#A83A22]⠀⠈⢿⣧⠀⠀⠀⠀⠀⠀⢻⣿⣜⢷⡙⠁⠀⠀⠐⢏⡼⢡⣿⠟⠁⠀⠀⠀⠀⠀⣴⣿⠁⠀[/]
+
+  [#96321E]⠀⠀⠈⢿⣷⣄⠀⠀⠀⠀⠀⠹⣿⣆⠁⠀⠀⠀⠀⠘⣵⣿⠟⠀⠀⠀⠀⠀⢀⣼⠟⠁⠀⠀[/]
+
+  [#8A2E1E]⠀⠀⠀⠀⠙⢿⣷⣄⠀⠀⠀⠀⠙⢿⢷⢷⢷⢷⢷⢿⢿⠇⠀⠀⠀⠀⢀⣴⠿⠋⠀⠀⠀⠀[/]
+
+  [#7A2818]⠀⠀⠀⠀⠀⠀⠙⠻⢷⣦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣴⣿⠟⠉⠀⠀⠀⠀⠀⠀[/]
+
+  [#6E2415]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠿⠿⢷⣷⣶⣶⣴⣶⣶⢿⠿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+
+
+  [bold #FFB14A]⠀⠀TRIOPTIMUM CORPORATION — MILITARY · SCIENCE · CONSUMER⠀⠀[/]'
