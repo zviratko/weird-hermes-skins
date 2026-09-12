@@ -1,0 +1,108 @@
+name: czech-agent
+description: "Czech Agent — Prahl Technologies NSFW tribute; peach-and-hot-pink palette, pixel hero, open-mind-open-legs branding"
+
+colors:
+  banner_border: "#C24E70"
+  banner_title: "#FF6B8A"
+  banner_accent: "#FFB3C1"
+  banner_dim: "#7A2E48"
+  banner_text: "#FFD9E2"
+  ui_accent: "#FF6B8A"
+  ui_label: "#FFB3C1"
+  ui_ok: "#6AE08B"
+  ui_error: "#D6286B"
+  ui_warn: "#E5B45C"
+  prompt: "#FFE9EF"
+  input_rule: "#5C1F38"
+  response_border: "#C24E70"
+  status_bar_bg: "#2E1020"
+  status_bar_text: "#FFD9E2"
+  status_bar_strong: "#FF6B8A"
+  status_bar_dim: "#7A2E48"
+  status_bar_good: "#6AE08B"
+  status_bar_warn: "#E5B45C"
+  status_bar_bad: "#FFB3C1"
+  status_bar_critical: "#D6286B"
+  voice_status_bg: "#2E1020"
+  completion_menu_bg: "#260C1A"
+  completion_menu_current_bg: "#8A2450"
+  completion_menu_meta_bg: "#331225"
+  completion_menu_meta_current_bg: "#A83A60"
+  session_label: "#FFB3C1"
+  session_border: "#5C1F38"
+
+spinner:
+  waiting_faces:
+    - "(◕‿◕)"
+    - "(˵•‿•˵)"
+    - "(◞‸◟)"
+    - "(¬‿¬)"
+    - "(˘ᵕ˘)"
+  thinking_faces:
+    - "(¬‿¬)"
+    - "(˵•‿•˵)"
+    - "(∩｀-´)⊃━☆"
+    - "(◕ω◕)"
+    - "(‾◡◝)"
+  thinking_verbs:
+    - "warming up the inference"
+    - "spreading the context window"
+    - "going deep into the tokens"
+    - "swallowing the whole output"
+    - "thinking of Prague"
+    - "positioning the pointers"
+    - "hard reset required"
+    - "multiple monitors, one focus"
+    - "finishing in one commit"
+    - "sorry about the mess"
+  wings:
+    - ["⟪◕", "◕⟫"]
+    - ["⟪¬‿", "‿¬⟫"]
+    - ["⟪˵", "˵⟫"]
+    - ["⟪♥", "♥⟫"]
+
+branding:
+  agent_name: "Č E S K Ý  A G E N T"
+  welcome: '[bold #FFB3C1]S[/][bold #FFB1BF]P[/][bold #FFAEBE]R[/][bold #FFACBC]E[/][bold #FFAABA]A[/][bold #FFA8B8]D[/] [bold #FFA3B5]T[/][bold #FFA1B3]H[/][bold #FF9EB1]E[/] [bold #FF9AAE]L[/][bold #FF98AC]E[/][bold #FF95AA]G[/][bold #FF93A9]S[/] [bold #FF8EA5]O[/][bold #FF8CA3]F[/] [bold #FF88A0]D[/][bold #FF859E]O[/][bold #FF839C]U[/][bold #FF819B]B[/][bold #FF7E99]T[/][bold #FF7C97].[/] [bold #FF7894]T[/][bold #FF7592]Y[/][bold #FF7390]P[/][bold #FF718E]E[/] [bold #FF6C8B]A[/] [bold #FF7290]Q[/][bold #FF7793]U[/][bold #FF7B97]E[/][bold #FF809B]R[/][bold #FF859E]Y[/] [bold #FF8EA6]A[/][bold #FF93AA]N[/][bold #FF98AD]D[/] [bold #FFA1B5]C[/][bold #FFA6B8]L[/][bold #FFAABC]I[/][bold #FFAFC0]M[/][bold #FFB4C4]A[/][bold #FFB9C7]X[/] [bold #FFC2CF]T[/][bold #FFC7D2]H[/][bold #FFCBD6]E[/] [bold #FFD5DE]I[/][bold #FFD9E1]N[/][bold #FFDEE5]F[/][bold #FFE3E9]E[/][bold #FFE8EC]R[/][bold #FFECF0]E[/][bold #FFF1F4]N[/][bold #FFF6F8]C[/][bold #FFFAFB]E[/][bold #FFFFFF].[/]'
+  goodbye: "Session finished. No tissue required — the context window remembers everything."
+  response_label: " ♥ agent "
+  prompt_symbol: "♥ ❯ "
+  help_header: "(¬‿¬) Available Commands"
+
+tool_prefix: "▕"
+
+tool_emojis:
+  terminal: "♥"
+  web_search: "◎"
+  read_file: "▹"
+  write_file: "◆"
+  search_files: "⌕"
+  execute_code: "⌁"
+  browser_navigate: "◈"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [bold #FF6B8A]⣏⣉⠀⣩⣋⠀⣯⣍⠀⣏⣉⠀⡧⢼⠀[/]
+  [bold #FFB3C1]⡮⢵⠀⣏⣽⠀⣯⣍⠀⣧⢾⠀⠙⡏⠀[/]
+  [#FFB3C1]        M O D Ř A N Y   C A S T I N G [/]
+  
+  [bold #D6286B]   OPEN MIND. OPEN LEGS. OPEN ANOTHER SESSION.[/]
+
+
+banner_hero: |
+  [#FFC2CE]⠀⠀⠀⢀⣴⣾⣿⣿⣾⣶⣄⠀⣠⣶⣾⣿⣿⣷⣦⡀⠀⠀⠀[/]
+  [#F9ACC0]⠀⠀⣰⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀[/]
+  [#F396B2]⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⠀⠀[/]
+  [#ED80A4]⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀[/]
+  [#E86A95]⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀[/]
+  [#E25487]⠀⠀⠀⠀⠀⠈⠉⠉⠉⢿⣿⣿⣿⡿⠉⠉⠉⠁⠀⠀⠀⠀⠀[/]
+  [#DC3E79]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#D6286B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  
+  [bold #FF6B8A]⣿   MODŘANY CASTING   ⣿[/]

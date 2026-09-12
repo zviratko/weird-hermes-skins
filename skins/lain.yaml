@@ -1,0 +1,121 @@
+name: lain
+description: "Serial Experiments Lain — lavender-and-wired-cyan palette, Protocol Handler NAVI branding, pixel-art Lain hero banner, Recorder-flavoured spinners"
+
+colors:
+  banner_border: "#A98CD4"
+  banner_title: "#D4BEF0"
+  banner_accent: "#8FDCFF"
+  banner_dim: "#8E72B8"
+  banner_text: "#DDD0F0"
+  ui_accent: "#CBB2E8"
+  ui_label: "#8FDCFF"
+  ui_ok: "#6AE08B"
+  ui_error: "#FF5C7A"
+  ui_warn: "#FFC46B"
+  prompt: "#F0EAFB"
+  input_rule: "#6E52A0"
+  response_border: "#A98CD4"
+  status_bar_bg: "#241638"
+  status_bar_text: "#DDD0F0"
+  status_bar_strong: "#D4BEF0"
+  status_bar_dim: "#9A82C4"
+  status_bar_good: "#6AE08B"
+  status_bar_warn: "#FFC46B"
+  status_bar_bad: "#8FDCFF"
+  status_bar_critical: "#FF5C7A"
+  voice_status_bg: "#241638"
+  completion_menu_bg: "#2E1B47"
+  completion_menu_current_bg: "#7E5BB5"
+  completion_menu_meta_bg: "#3B2459"
+  completion_menu_meta_current_bg: "#9370CE"
+  session_label: "#8FDCFF"
+  session_border: "#6E52A0"
+
+spinner:
+  waiting_faces:
+    - "(◉)"
+    - "(⊙)"
+    - "(◎)"
+    - "(≖)"
+    - "(∅)"
+  thinking_faces:
+    - "(◉)"
+    - "(⊙)"
+    - "(⌁)"
+    - "(≋)"
+    - "(●)"
+  thinking_verbs:
+    - "riding the wired"
+    - "accessing the layers"
+    - "protocol handler online"
+    - "deleting the unnecessary"
+    - "verifying presence elsewhere"
+    - "compiling the recorder"
+    - "ignoring the body"
+    - "everyone is connected"
+    - "god's watching now"
+  wings:
+    - ["⟪◉", "◉⟫"]
+    - ["⟪⊙", "⊙⟫"]
+    - ["⟪≋", "≋⟫"]
+    - ["⟪∅", "∅⟫"]
+
+branding:
+  agent_name: "🅛 🅐 🅘 🅝  ◉ ⃟ NAVI"
+  welcome: '[bold #C9A8E8]P[/][bold #C8AAE9]R[/][bold #C6ACEA]E[/][bold #C5ADEA]S[/][bold #C3AFEB]E[/][bold #C2B1EC]N[/][bold #C0B3ED]T[/] [bold #BEB6EE]D[/][bold #BCB8EF]A[/][bold #BBBAF0]Y[/] [bold #B8BDF1]I[/][bold #B6BFF2]S[/] [bold #B4C2F4]N[/][bold #B2C4F4]O[/][bold #B1C6F5]T[/] [bold #AEC9F7]T[/][bold #ADCBF8]H[/][bold #ABCDF8]E[/] [bold #A8D1FA]O[/][bold #A7D2FB]N[/][bold #A5D4FB]L[/][bold #A4D6FC]Y[/] [bold #A1D9FE]R[/][bold #A0DBFF]E[/][bold #A1DDFF]A[/][bold #A4DEFF]L[/][bold #A7DFFF]I[/][bold #AAE0FF]T[/][bold #AEE1FF]Y[/][bold #B1E3FF].[/] [bold #B7E5FF]T[/][bold #BBE6FF]Y[/][bold #BEE7FF]P[/][bold #C1E8FF]E[/] [bold #C8EBFF]T[/][bold #CBECFF]O[/] [bold #D1EEFF]R[/][bold #D5F0FF]I[/][bold #D8F1FF]D[/][bold #DBF2FF]E[/] [bold #E2F4FF]T[/][bold #E5F6FF]H[/][bold #E8F7FF]E[/] [bold #EFF9FF]W[/][bold #F2FAFF]I[/][bold #F5FBFF]R[/][bold #F8FDFF]E[/][bold #FCFEFF]D[/][bold #FFFFFF].[/]'
+  goodbye: "Disconnect. See you further down the Wired. The Recorder saves this session."
+  response_label: " ◉ lain "
+  prompt_symbol: "◉ ❯ "
+  help_header: "(◉) Wired Protocols"
+
+tool_prefix: "▏"
+
+tool_emojis:
+  terminal: "◉"
+  web_search: "◎"
+  read_file: "▹"
+  write_file: "◆"
+  search_files: "⌕"
+  execute_code: "⌁"
+  browser_navigate: "◈"
+  delegate_task: "▣"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#8A63D2]██╗        █████╗   ██╗  ███╗   ██╗[/]
+  [#9A77D9]██║       ██╔══██╗  ██║  ████╗  ██║[/]
+  [#AB8BE0]██║       ███████║  ██║  ██╔██╗ ██║[/]
+  [#BB9EE7]██║       ██╔══██║  ██║  ██║╚██╗██║[/]
+  [#CCB2EE]███████╗  ██║  ██║  ██║  ██║ ╚████║[/]
+  [bold #DCC6F5]╚══════╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝  ╚═══╝[/]
+  [#8FDCFF]            P R O T O C O L   H A N D L E R   :   N A V I[/]
+  
+  [bold #8FDCFF]   ⌁ EVERYONE IS CONNECTED, NO MATTER WHERE THEY ARE ⌁[/]
+
+banner_hero: |
+  [#7E5FC4]⠀⠀⠀⠀  ⠀⠀⢀⣀⣠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#8768C9]⠀⠀⠀  ⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀[/]
+  [#9071CD]⠀⠀  ⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀[/]
+  [#987AD2]⠀  ⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀[/]
+  [#A183D7]⠀  ⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀[/]
+  [#AA8CDB]  ⢸⣿⣿⣿⣿⣿⡿⠛⠛⠛⠛⠛⢿⣿⣿⠛⠛⠛⠛⠛⢿⣿⣿⣿⣿⡇⠀⠀[/]
+  [#B395E0]  ⢸⣿⣿⣿⠛⠁⠀⠀⠀⠀⠀⠀⠈⢻⡟⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⡇⠀[/]
+  [#FF5C7A]  ⢸⣿⣿⡇⠀⠀⣠⣄⠀⠀⣀⣀⣀⠀⢣⠀⠀⣠⣄⠀⠀⠀⢸⣿⣿⣿⡇⠀[/]
+  [#FF5C7A]  ⢸⣿⣿⡇⠀⠀⣿⣿⣿⠀⣿⣿⣿⡀⠀⡇⠀⣿⣿⣿⠀⠀⢸⣿⣿⣿⡇⠀[/]
+  [#FF5C7A]  ⢸⣿⣿⣧⠀⠀⠉⠉⠁⠀⠀⠉⠉⠁⠀⡇⠀⠉⠉⠁⠀⠀⣼⣿⣿⣿⠃⠀[/]
+  [#C8B5F0]  ⠘⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀⡇⠀⠀⠀⠀⠀⣠⣿⣿⣿⡏⠀⠀[/]
+  [#C3BAF2]  ⠀⢻⣿⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⣠⠃⢀⣠⣴⣿⣿⣿⣿⣿⡟⠀⠀⠀[/]
+  [#BEBFF4]⠀  ⠀⠻⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡴⠋⣠⣴⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀[/]
+  [#B9C4F6]⠀⠀  ⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀[/]
+  [#B3C8F7]⠀⠀⠀⠀  ⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀[/]
+  [#AECDF9]⠀⠀⠀  ⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#A9D2FB]⠀⠀  ⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#A4D7FD]⠀  ⠀⠀⠀⠀⠀⢀⣴⣿⣿⡿⠋⠉⠙⢿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#9FDCFF]  ⠀⠀⠀⠀⣠⣴⣿⣿⣿⠋⠀⠀⠀⠀⠀⠙⢿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀[/]
+  
+  [bold #FF5C7A]⣀ close your eyes. open the other eye ⣀⠀⠀⠀⠀⠀⠀[/]
