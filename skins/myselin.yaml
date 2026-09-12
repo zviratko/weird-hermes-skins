@@ -1,0 +1,102 @@
+name: myselin
+description: "Myšelín tribute. The best cat ever."
+
+colors:
+  banner_border: "#487CE8"
+  banner_title: "#82BAFC"
+  banner_accent: "#FFDF85"
+  banner_dim: "#2E5BD0"
+  banner_text: "#EAF2FF"
+  ui_accent: "#69A3F8"
+  ui_label: "#FFDF85"
+  ui_ok: "#7EE0B0"
+  ui_error: "#FF7A93"
+  ui_warn: "#FFD75E"
+  prompt: "#EAF2FF"
+  input_rule: "#2A3F6E"
+  response_border: "#487CE8"
+  status_bar_bg: "#122040"
+  status_bar_text: "#DCE8F8"
+  status_bar_strong: "#82BAFC"
+  status_bar_dim: "#4A6FBF"
+  status_bar_good: "#7EE0B0"
+  status_bar_warn: "#FFD75E"
+  status_bar_bad: "#A5D2FE"
+  status_bar_critical: "#FF7A93"
+  voice_status_bg: "#122040"
+  completion_menu_bg: "#16264C"
+  completion_menu_current_bg: "#3A6BDC"
+  completion_menu_meta_bg: "#1C2F5C"
+  completion_menu_meta_current_bg: "#487CE8"
+  session_label: "#82BAFC"
+  session_border: "#2A3F6E"
+
+spinner:
+  waiting_faces:
+    - "(☾)"
+    - "(❍)"
+    - "(⋆)"
+    - "(✧)"
+    - "(◌)"
+  thinking_faces:
+    - "(☾)"
+    - "(✦)"
+    - "(⋆)"
+    - "(❍)"
+    - "(✧)"
+  thinking_verbs:
+    - "kneading the soft blanket"
+    - "guarding your sleep"
+    - "purring at 26 hertz"
+    - "napping in the warm spot"
+    - "watching birds through the glass"
+    - "dreaming of soft places"
+    - "curled up and drooling"
+    - "counting stars from the sill"
+    - "off over the rainbow bridge"
+  wings:
+    - ["⟨☾", "☽⟩"]
+    - ["⟨✧", "✧⟩"]
+    - ["⟨⋆", "⋆⟩"]
+    - ["⟨❍", "❍⟩"]
+
+branding:
+  agent_name: "M Y Š K A  ☾"
+  welcome: '[bold #4D80E9]h[/][bold #5284EB]e[/] [bold #5687EC]i[/][bold #5B8BED]s[/] [bold #608FEE]r[/][bold #6593F0]e[/][bold #6A96F1]s[/][bold #6F9AF2]t[/][bold #749EF4]i[/][bold #78A2F5]n[/][bold #7DA6F6]g[/] [bold #82A9F7]n[/][bold #87ADF9]o[/][bold #8CB1FA]w[/][bold #90B5FB],[/] [bold #95B8FC]o[/][bold #9ABCFE]v[/][bold #9FC0FF]e[/][bold #A4C2FB]r[/] [bold #AAC5F6]t[/][bold #AFC7F2]h[/][bold #B4CAED]e[/] [bold #BACCE9]r[/][bold #BFCFE5]a[/][bold #C4D1E0]i[/][bold #CAD4DC]n[/][bold #CFD6D8]b[/][bold #D4D8D3]o[/][bold #DADBCF]w[/] [bold #DFDDCA]b[/][bold #E4E0C6]r[/][bold #EAE2C2]i[/][bold #EFE5BD]d[/][bold #F4E7B9]g[/][bold #FAEAB4]e[/][bold #FFECB0].[/]'
+  goodbye: "Sleep well, little one. He is resting now, over the rainbow bridge. He loved loudly. So do we."
+  response_label: " ☾ purr "
+  prompt_symbol: "☾ ❯ "
+  help_header: "(☾) Nightlight Commands"
+
+tool_prefix: "▏"
+
+tool_emojis:
+  terminal: "☾"
+  web_search: "✧"
+  read_file: "❍"
+  write_file: "✦"
+  search_files: "⋆"
+  execute_code: "✶"
+  browser_navigate: "❀"
+  delegate_task: "⊛"
+  mixture_of_agents: "⚗"
+  memory: "◐"
+  clarify: "?"
+  cronjob: "↻"
+  process: "⚙"
+  todo: "☐"
+
+banner_logo: |
+  [#8FB6F0]        f o r   m y   s w e e t   b o y ,   M y š e l í n[/]
+
+banner_hero: |
+  [#2E5BD0]⠀⠀⠀⠀⢀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢴⣷⠄⠀⠀[/]
+  [#3A6BDC]⠀⠀⠀⠀⢼⣿⡀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣷⡀⠀⠀⠀⠀⠀⣰⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀[/]
+  [#487CE8]⠀⠀⠀⠀⠘⠿⢿⠶⠖⠀⠀⠀⠀⣀⣿⣿⣿⣿⣶⣠⣀⣠⣾⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀[/]
+  [#578EF2]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣦⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋[/]
+  [#69A3F8]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠠⡦⠀⠀⠀⠀[/]
+  [#82BAFC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFC85C]⠀⠀⠀⠀⠐⠗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#FFE98F]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠟⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+    
+  [bold #FFDE7E]   ☾  he loved loudly. we still do.  ☾[/]
